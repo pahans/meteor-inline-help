@@ -1,0 +1,15 @@
+.show-help .glyphicon.glyphicon-question-sign{
+  font-size: 14px;
+}
+
+.inline-help-popover .popover-content{
+  font-size: 12px;
+  font-weight: normal;
+}
+
+.show-help-link .glyphicon.glyphicon-question-sign{
+  vertical-align: super;
+}
+.show-help-link:hover{
+  text-decoration: none;
+}
