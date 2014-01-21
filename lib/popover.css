@@ -1,4 +1,4 @@
-.show-help .glyphicon.glyphicon-question-sign{
+.show-help .glyphicon.glyphicon-question-sign,.show-help .icon-question-sign{
   font-size: 14px;
 }
 
@@ -7,9 +7,10 @@
   font-weight: normal;
   color: #747474;
   letter-spacing: 0.4px;
+  line-height: normal;
 }
 
-.show-help-link .glyphicon.glyphicon-question-sign{
+.show-help-link .glyphicon.glyphicon-question-sign,.show-help-link .icon-question-sign{
   vertical-align: super;
 }
 .show-help-link:hover{
