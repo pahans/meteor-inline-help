@@ -5,7 +5,7 @@ This is a simple inline help package for Meteor.
 
 How to Use
 =========
-###install it from atomsphere
+###install it from atmosphere
 
 ```javascript 
 mrt add inline-help
