@@ -1,0 +1,10 @@
+{
+  "name": "inline-help",
+  "description": "meteor inline help",
+  "homepage": "https://github.com/pahans/meteor-inline-help",
+  "author": "Pahan Sarathchandra",
+  "version": "0.1.1",
+  "git": "https://github.com/pahans/meteor-inline-help.git",
+  "packages": {
+  }
+}
