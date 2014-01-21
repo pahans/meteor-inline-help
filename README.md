@@ -3,6 +3,10 @@ meteor-inline-help
 
 This is a simple inline help package for Meteor. 
 
+![Meteor inline help demo](https://dl-web.dropbox.com/get/share/inlinehelpdemo.gif?_subject_uid=3900819&w=AABmo1PpEXAFcjXqzMnTxEOILctt6UF_eiTbBq-x3FMRdQ "Meteor inline help demo")
+
+
+
 How to Use
 =========
 ###install it from atmosphere
