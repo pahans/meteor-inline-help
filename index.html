@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="description" content="Meteor-inline-help :  simple inline help package for Meteor." />
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>Meteor-inline-help</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/pahans/meteor-inline-help">View on GitHub</a>
+
+          <h1 id="project_title">Meteor-inline-help</h1>
+          <h2 id="project_tagline"> simple inline help package for Meteor.</h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/pahans/meteor-inline-help/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/pahans/meteor-inline-help/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <h1>
+<a name="meteor-inline-help" class="anchor" href="#meteor-inline-help"><span class="octicon octicon-link"></span></a>meteor-inline-help</h1>
+
+<p>This is a simple inline help package for Meteor. </p>
+
+<h1>
+<a name="how-to-use" class="anchor" href="#how-to-use"><span class="octicon octicon-link"></span></a>How to Use</h1>
+
+<h3>
+<a name="install-it-from-atmosphere" class="anchor" href="#install-it-from-atmosphere"><span class="octicon octicon-link"></span></a>install it from atmosphere</h3>
+
+<div class="highlight highlight-javascript"><pre><span class="nx">mrt</span> <span class="nx">add</span> <span class="nx">inline</span><span class="o">-</span><span class="nx">help</span>
+</pre></div>
+
+<h3>
+<a name="fetch-your-help-information" class="anchor" href="#fetch-your-help-information"><span class="octicon octicon-link"></span></a>Fetch your help information</h3>
+
+<div class="highlight highlight-javascript"><pre><span class="kd">var</span> <span class="nx">helpData</span> <span class="o">=</span> <span class="p">{</span>
+  <span class="s1">'help-name'</span><span class="o">:</span> <span class="p">{</span>
+    <span class="nx">title</span><span class="o">:</span> <span class="s2">"Help document title "</span><span class="p">,</span>
+    <span class="nx">message</span><span class="o">:</span> <span class="s2">"Help document message"</span><span class="p">,</span>
+    <span class="nx">url</span><span class="o">:</span> <span class="s2">"http://YOUR_URL_TO_ADDITIONAL_HELP"</span>
+    <span class="nx">options</span><span class="o">:</span> <span class="p">{</span>
+      <span class="nx">placement</span><span class="o">:</span> <span class="s1">'right'</span>
+    <span class="p">}</span>
+  <span class="p">},</span>
+  <span class="s1">'another-help-name'</span><span class="o">:</span> <span class="p">{</span>
+    <span class="nx">title</span><span class="o">:</span> <span class="s2">"another help document title "</span><span class="p">,</span>
+    <span class="nx">message</span><span class="o">:</span> <span class="s2">"another help document message"</span><span class="p">,</span>
+    <span class="nx">url</span><span class="o">:</span> <span class="s2">"http://YOUR_URL_TO_ADDITIONAL_HELP"</span>
+  <span class="p">},</span>
+<span class="p">}</span>
+<span class="nx">Help</span><span class="p">.</span><span class="nx">initHelp</span><span class="p">(</span><span class="nx">helpData</span><span class="p">);</span> 
+</pre></div>
+
+<ul>
+<li>'title', 'url' and 'options' are optional parameters </li>
+<li>you can use <a href="http://getbootstrap.com/javascript/#popovers">bootstrap popover options</a>.<br>
+</li>
+</ul><h3>
+<a name="markup" class="anchor" href="#markup"><span class="octicon octicon-link"></span></a>Markup</h3>
+
+<p>use showHelp handlebars helper </p>
+
+<div class="highlight highlight-javascript"><pre><span class="p">{{</span><span class="nx">showHelp</span> <span class="s1">'help-name'</span><span class="p">}}</span>
+</pre></div>
+
+<h3>
+<a name="styling" class="anchor" href="#styling"><span class="octicon octicon-link"></span></a>Styling</h3>
+
+<ul>
+<li>.show-help-icon - if you need to set a custom icon</li>
+<li>.inline-help-popover - wrapped element in bootstrap popover</li>
+</ul>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Meteor-inline-help maintained by <a href="https://github.com/pahans">pahans</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
