@@ -1,5 +1,5 @@
 Package.describe({
-  summary: "meteor inline help"
+  summary: "simple inline help package for Meteor"
 });
 
 Package.on_use(function(api, where) {

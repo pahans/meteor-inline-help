@@ -1,6 +1,6 @@
 {
   "name": "inline-help",
-  "description": "meteor inline help",
+  "description": "This is a simple inline help package for Meteor",
   "homepage": "https://github.com/pahans/meteor-inline-help",
   "author": "Pahan Sarathchandra <pahan123@gmail.com>",
   "version": "0.1.0",
