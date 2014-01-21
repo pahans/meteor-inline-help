@@ -1,8 +1,13 @@
 <Template name="_helpPopover">
 
-  <span class="show-help"><a class="show-help-link" data-toggle="popover" {{#if title}}title=
-  '{{title}}' {{/if}} data-content='{{#markdown}}{{message}}{{/markdown}} {{#if url}}<a href="{{url}}" class="">Read More</a> {{/if}}' type="button">
+  <span class="show-help"><a id={{key}} class="show-help-link" data-toggle="popover" {{#if title}}title=
+  '{{title}}' {{/if}} data-content='{{#markdown}}{{message}}{{/markdown}} {{#if url}}<a href="{{url}}" class="" target="_blank">Read More</a> {{/if}}' type="button">
     <span class="glyphicon glyphicon-question-sign"></span>
   </a>
+  {{#if directCall}}
+    <script type="text/javascript">
+      Help._initPopover('{{key}}');
+    </script>
+  {{/if}}
   </span>
 </Template>

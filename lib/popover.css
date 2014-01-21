@@ -3,8 +3,10 @@
 }
 
 .inline-help-popover .popover-content{
-  font-size: 12px;
+  font-size: 13px;
   font-weight: normal;
+  color: #747474;
+  letter-spacing: 0.4px;
 }
 
 .show-help-link .glyphicon.glyphicon-question-sign{
