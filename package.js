@@ -8,12 +8,7 @@ Package.on_use(function(api, where) {
   api.export('Help', ['client']);
 
   api.add_files([
-    'lib/popover.html'
+    'lib/popover.html','lib/popover.css','lib/inline-help.js'
   ], 'client');
-  api.add_files([
-    'lib/popover.css'
-  ], 'client');
-  api.add_files([
-    'lib/client.js',
-  ], 'client');
+
 });
