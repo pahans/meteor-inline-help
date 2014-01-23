@@ -3,7 +3,7 @@ meteor-inline-help
 
 This is a simple inline help package for Meteor. 
 
-![Meteor inline help demo](http://i.imgur.com/oHwBbyb.gif "Meteor inline help demo")
+![Meteor inline help demo](http://i.imgur.com/BE41CYB.gif "Meteor inline help demo")
 
 
 
