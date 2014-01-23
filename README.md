@@ -33,7 +33,7 @@ var helpData = {
     url: "http://YOUR_URL_TO_ADDITIONAL_HELP"
   },
 }
-Help.initHelp(helpData); 
+InlineHelp.initHelp(helpData); 
 ```
 * 'title', 'url' and 'options' are optional parameters 
 * you can use [bootstrap popover options](http://getbootstrap.com/javascript/#popovers).  
