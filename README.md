@@ -16,19 +16,20 @@ mrt add inline-help
 ```
 
 ###Fetch your help information
+property message, supports markdown
 
 ```javascript 
 var helpData = {
   'help-name': {
     title: "Help document title ",
-    message: "Help document message",
+    message: "Help document message", //supports Markdown
     url: "http://YOUR_URL_TO_ADDITIONAL_HELP"
     options: {
       placement: 'right'
     }
   },
   'another-help-name': {
-    title: "another help document title ",
+    title: "another help document title ", //supports Markdown
     message: "another help document message",
     url: "http://YOUR_URL_TO_ADDITIONAL_HELP"
   },
