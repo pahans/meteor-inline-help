@@ -23,7 +23,7 @@ var helpData = {
   'help-name': {
     title: "Help document title ",
     message: "Help document message", //supports Markdown
-    url: "http://YOUR_URL_TO_ADDITIONAL_HELP"
+    url: "http://YOUR_URL_TO_ADDITIONAL_HELP",
     options: {
       placement: 'right'
     }
