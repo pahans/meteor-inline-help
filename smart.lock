@@ -1,0 +1,15 @@
+{
+  "meteor": {},
+  "dependencies": {
+    "basePackages": {
+      "inline-help": {
+        "path": "."
+      }
+    },
+    "packages": {
+      "inline-help": {
+        "path": "."
+      }
+    }
+  }
+}
