@@ -52,9 +52,9 @@ for versions before Meteor 0.8
 ```javascript 
 {{showHelp 'help-name'}}
 ```
-
+for Meteor 0.8+
 ```javascript 
-{{showHelp 'help-name'}}
+{{>showHelp 'help-name'}}
 ```
 
 
