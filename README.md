@@ -11,6 +11,11 @@ How to Use
 =========
 ###install it from atmosphere
 
+for versions before Meteor 0.8
+```javascript
+mrt add inline-help --pkg-version 0.1.5
+
+for Meteor 0.8+
 ```javascript 
 mrt add inline-help
 ```
@@ -42,9 +47,16 @@ InlineHelp.initHelp(helpData);
 
 ### Markup
 use showHelp handlebars helper 
+
+for versions before Meteor 0.8
 ```javascript 
 {{showHelp 'help-name'}}
 ```
+
+```javascript 
+{{showHelp 'help-name'}}
+```
+
 
 ### Styling
 * .show-help-icon - if you need to set a custom icon
