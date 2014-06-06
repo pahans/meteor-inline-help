@@ -14,7 +14,7 @@ How to Use
 for versions before Meteor 0.8
 ```javascript
 mrt add inline-help --pkg-version 0.1.5
-
+```
 for Meteor 0.8+
 ```javascript 
 mrt add inline-help
