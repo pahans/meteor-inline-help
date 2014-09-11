@@ -1,8 +1,14 @@
 Package.describe({
-  summary: "simple inline help package for Meteor"
+  summary: "simple inline help package for Meteor",
+  version: "1.0.0",
+  git: "https://github.com/pahans/meteor-inline-help.git",
+  name: "pahans:inline-help"
 });
 
 Package.on_use(function(api, where) {
+  if(api.versionsFrom){
+    api.versionsFrom('METEOR@0.9.0');
+  }
   api.use(['handlebars','templating', 'showdown'], 'client');
 
   api.export('InlineHelp', ['client']);
