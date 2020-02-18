@@ -6,6 +6,9 @@ This is a simple inline help package for Meteor.
 ![Meteor inline help demo](http://i.imgur.com/BE41CYB.gif "Meteor inline help demo")
 
 
+Not actively maintained
+=======================
+
 
 How to Use
 =========
